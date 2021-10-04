@@ -90,7 +90,7 @@ async def start(bot, message):
                 await bot.send_cached_media(
                     chat_id=message.from_user.id,
                     file_id=file_id,
-                    caption=f_caption,
+                    caption=f_@cinemakota,
                     reply_markup=InlineKeyboardMarkup(buttons)
                     )
         except Exception as err:
